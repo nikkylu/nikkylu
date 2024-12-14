@@ -1,0 +1,98 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/app/_not-found/page-0043d75de3bc49f5.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/css/99d76cd89cfddb2c.css",
+      "static/chunks/app/layout-34935cdf21c03438.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/page-7912a02fcb60059a.js"
+    ],
+    "/photos/memory/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/photos/memory/page-cc5b63c3825d74cb.js"
+    ],
+    "/photos/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/photos/page-44f657d2c2f91057.js"
+    ],
+    "/travel/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/travel/page-54c3f2e0dd788056.js"
+    ],
+    "/photos/corpse/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/photos/corpse/page-0c1527317f567059.js"
+    ],
+    "/photos/world/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/photos/world/page-2b8ddfd62e7b701a.js"
+    ],
+    "/projects/cyclable/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/app/projects/cyclable/page-33f0d4d9c07de349.js"
+    ],
+    "/photos/water/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/970-c90a8ef0b7c95f99.js",
+      "static/chunks/app/photos/water/page-56df70206c6ef3e1.js"
+    ],
+    "/research/goal-interpretation/page": [
+      "static/chunks/webpack-a66ee58060f236b7.js",
+      "static/chunks/4bd1b696-92810b4b4ece63ad.js",
+      "static/chunks/517-5ac2de426a69bf41.js",
+      "static/chunks/main-app-7d3ab5fd2c175315.js",
+      "static/chunks/173-767e48b05c5f9370.js",
+      "static/chunks/app/research/goal-interpretation/page-4ab18df9cd6db3e9.js"
+    ]
+  }
+}

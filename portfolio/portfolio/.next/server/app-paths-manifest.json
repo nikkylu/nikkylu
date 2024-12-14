@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/photos/memory/page": "app/photos/memory/page.js",
+  "/photos/page": "app/photos/page.js",
+  "/travel/page": "app/travel/page.js",
+  "/photos/corpse/page": "app/photos/corpse/page.js",
+  "/photos/world/page": "app/photos/world/page.js",
+  "/projects/cyclable/page": "app/projects/cyclable/page.js",
+  "/photos/water/page": "app/photos/water/page.js",
+  "/research/goal-interpretation/page": "app/research/goal-interpretation/page.js"
+}
