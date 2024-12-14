@@ -39,7 +39,10 @@ export default function Photos() {
         </Link>
 
         <h1 className="text-4xl font-bold mb-8 text-primary">Photography</h1>
-
+        {/* <h2 className='mb-1'>Artist statement:</h2> */}
+        <p className='mb-3  text-gray-600 '>Nikky approaches art as a flâneur interested in language and mind. 
+          They like to write photo journals and view images as representations 
+          that encapsulate a greater reality than the actual world.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {photoProjects.map((project, index) => (
             <Link href={project.link} key={index}>

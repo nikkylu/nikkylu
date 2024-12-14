@@ -14,7 +14,7 @@ export default function GoalInterpretation() {
           <h1 className="text-4xl font-bold mb-6">Optimizing Environments Through Goal Interpretation</h1>
           
           <p className="text-lg text-gray-600 mb-8">
-            Mentor: Guy Davidson, PI: Brenden Lake
+            Mentor: Guy Davidson, PI: Prof Brenden Lake
           </p>
 
           <section className="mb-8">

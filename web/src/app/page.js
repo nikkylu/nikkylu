@@ -27,7 +27,7 @@ const research = {
       id: "goal-interpretation",
       title: "Optimizing Environments Through Goal Interpretation",
       description: "Studying how varying levels of goal abstraction impact human understanding and creativity through behavioral experiments and computational models.",
-      lab: "Mentor: Guy Davidson, PI: Brenden Lake",
+      lab: "Mentor: Guy Davidson, PI: Prof Brenden Lake",
       link: "/research/goal-interpretation"
     },
     {
@@ -150,7 +150,7 @@ export default function Home() {
             <div>
               <h2 className="font-bold text-l">Research Interests</h2>
               <p className="text-sm pl-8 mb-1">Broadly: Cognitive AI, HCI, Computational CogSci, Computer Vision</p>
-              <h2 className="font-bold text-l">Learning</h2>
+              <h2 className="font-bold text-l">Currently Learning</h2>
               <p className="text-sm pl-8">Reinforcement Learning, Behavioral Machine Learning, Symmetries in ML</p>
             </div>
 

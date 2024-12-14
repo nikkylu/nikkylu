@@ -11,7 +11,7 @@ module.exports = {
         beige: '#F5F4F1',
         primary: '#282828',  
         accent: '#f4511e', 
-        dan:'#aa938b',
+        dan:'#757575',
       },
       fontFamily: {
         serif: ['Charter', 'Georgia', 'Times New Roman', 'serif'],
