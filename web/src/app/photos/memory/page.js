@@ -22,7 +22,7 @@ export default function Photos() {
           Back 
         </Link>
 
-        <h1 className="text-4xl font-bold mb-8 text-primary">As We Left, and Walk into Memories (2023, 2024)</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary">As We Left, and Walk into Memories (2023, 2024)</h1>
         <p className="pl-8  text-primary">
             As We Left, and Walk into Memories documents the organic reconvergence with the house Nikky lived in as 
             a child before 2010. Everything used 12 years ago was still untouched and kept in its 'original' condition. 

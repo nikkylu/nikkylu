@@ -11,10 +11,10 @@ export default function Cyclable() {
         </Link>
 
         <article className="prose prose-lg max-w-none  text-primary">
-          <h1 className="text-4xl font-bold mb-6">Cyclable</h1>
+          <h1 className="text-3xl font-bold mb-6">Cyclable 🚲</h1>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">The Story</h2>
+            <h2 className="text-xl font-bold mb-4">The Story</h2>
             <div className="mb-8">
                 <a 
                 href="https://sea-lion-app-dcwdx.ondigitalocean.app/"
@@ -26,6 +26,9 @@ export default function Cyclable() {
                 </a>
             </div>
             <div className="space-y-4 pl-8">
+              <p>Cyclable is a route planning web application designed to enhance the cycling experience in New 
+                York City by integrating real-time user reports on road constructions and bike lane blockages.
+                </p>
               <p>
                 As a racing cyclist on the NYU cycling team, my perspective on urban cycling was transformed 
                 during my summer experiences in Copenhagen and Stockholm. In Copenhagen, I witnessed a cycling 
@@ -37,7 +40,7 @@ export default function Cyclable() {
                 Returning to NYC, the contrast was stark. Encountering numerous road blocks and construction 
                 sites in the bike lanes, I envisioned developing a solution to help cyclists navigate around 
                 these obstacles. My previous internship experience in a computer vision lab had exposed me to 
-                technologies that could potentially assist in this process.
+                technologies that assisted in this process in regards to image processing and classification.
               </p>
               <p>
                 This inspiration led to the creation of Cyclable, a project through which I not only addressed 

@@ -38,9 +38,9 @@ export default function Photos() {
           Back to Home
         </Link>
 
-        <h1 className="text-4xl font-bold mb-8 text-primary">Photography</h1>
+        <h1 className="text-4xl font-bold mb-8 text-primary">Photo Projects</h1>
         {/* <h2 className='mb-1'>Artist statement:</h2> */}
-        <p className='mb-3  text-gray-600 '>Nikky approaches art as a flâneur interested in language and mind. 
+        <p className='mb-4  text-gray-600 '>Nikky approaches art as a flâneur interested in language and mind. 
           They like to write photo journals and view images as representations 
           that encapsulate a greater reality than the actual world.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -56,7 +56,7 @@ export default function Photos() {
                   />
                 </div>
                 <div>
-                  <h2 className="text-xl font-medium text-primary hover:underline hover:text-accent">{project.title}</h2>
+                  <h2 className="text-l font-sm text-primary hover:underline hover:text-accent">{project.title}</h2>
                   <p className="text-sm text-gray-600 mt-1">{project.description}</p>
                 </div>
               </div>

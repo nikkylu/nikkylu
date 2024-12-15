@@ -38,7 +38,7 @@ export default function Photos() {
           Back 
         </Link>
 
-        <h1 className="text-4xl font-bold mb-8 text-primary">Who's Been Found by the Water (2024)</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary">Who's Been Found by the Water (2024)</h1>
         {/* <div className='mb-4'>
         <p className=" text-primary">
             The proximity to a vast water body has been a defining anchor in my life since childhood.</p>

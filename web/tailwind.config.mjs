@@ -14,7 +14,15 @@ module.exports = {
         dan:'#757575',
       },
       fontFamily: {
-        serif: ['Charter', 'Georgia', 'Times New Roman', 'serif'],
+        // serif: ['Charter', 'Georgia', 'Times New Roman', 'serif'],
+        // applemyungjo:['AppleMyungjo'],
+        // arial:['Arial'],
+        // appletypewriter:['AppleTypewriter'],
+        // mono:['monospace']
+        mono: ['Dank Mono', 'monospace'],
+      },
+      fontWeight: {
+        bold: 800, 
       },
     },
   },

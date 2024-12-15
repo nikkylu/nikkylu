@@ -11,38 +11,44 @@ export default function GoalInterpretation() {
         </Link>
 
         <article className="prose prose-lg max-w-none">
-          <h1 className="text-4xl font-bold mb-6">Optimizing Environments Through Goal Interpretation</h1>
+          <h1 className="text-3xl font-bold mb-6">Optimizing Environments Through Goal Interpretation</h1>
           
-          <p className="text-lg text-gray-600 mb-8">
-            Mentor: Guy Davidson, PI: Prof Brenden Lake
+          <p className="text-lg italic text-gray-600 mb-8">
+            PI: Prof Brenden Lake, Mentor: Guy Davidson
           </p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Overview</h2>
-            <p className="pl-8">
+            <h2 className="text-xl font-bold mb-4">Intuition</h2>
+            <ul className="list-disc pl-12 space-y-2">
+                Imagine a child coming home from basketball practice, feeling sad about leaving the court yet still excited from the game. The child finds a large bin, places it on a shelf, and starts shooting their basketball toward it. I am interested in the reasoning behind such goal-directed environment-building mechanisms, and this research is dedicated to understanding that purpose.
+            </ul>
+            <h2 className="text-xl font-bold mb-4 mt-4">Overview</h2>
+            <div className="pl-12 space-y-2">
+            <p>
               This research investigates how varying levels of goal abstraction impact human understanding and creativity 
               in environment design. We combine behavioral experiments with computational modeling to understand how humans 
               interpret and optimize environments based on different goal specifications.
             </p>
-            <p className="pl-8">• Example abstract goal:</p>
-                <p className="pl-12">"Launch the metal ball and score in the black bin."</p>
-                {/* <div className="space-y-2"> */}
-                <p className="pl-8">• Example concrete goal:</p>
-                <p className="pl-12">"Launch the metal ball onto one of the conveyor belt to make as many golf balls fall into the black bin as possible."</p>
-                {/* </div> */}
+            <p > 
+              By means of goal abstraction, an example abstract goal can be "Launch the metal ball and score in the black bin."
+            </p>
+            <p > 
+              An example concrete goal can be "Launch the metal ball onto one of the conveyor belt to make as many golf balls fall into the black bin as possible."
+            </p>
+            <p > 
+              While I am still thinking about my belief in defining a goal concept and implementing a goal module, the simplest thought behind goal abstraction is the difference between a meta goal and goals with more intermediate steps. 
+            </p>
+            </div>
+
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Research Components</h2>
-            <ul className="list-disc pl-12 space-y-2 mb-4">
+            <h2 className="text-xl font-bold mb-4">Research Components</h2>
+            <ul className="list-roman pl-12 space-y-2 mb-4">
               <li>Behavioral experiments on environment design</li>
               <li>Computational models of goal interpretation</li>
               <li>Analysis of creativity in design optimization</li>
             </ul>
-            <h2 className="text-2xl font-bold mb-4">Intuition</h2>
-                <ul className="list-disc pl-12 space-y-2">
-                    Imagine a child coming home from basketball practice, feeling sad about leaving the court yet still excited from the game. The child finds a large bin, places it on a shelf, and starts shooting their basketball toward it. I am interested in the reasoning behind such goal-directed environment-building mechanisms, and this research is dedicated to understanding that purpose.
-                </ul>
           </section>
 
             {/* <section className="mb-8">
@@ -66,19 +72,35 @@ export default function GoalInterpretation() {
             </section> */}
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Interface Demo</h2>
+            <h2 className="text-xl font-bold mb-8">Interface Demo</h2>
             <section className="mb-8">
             <div className="pl-8">
                 <div className="relative w-full aspect-video">
-                <iframe
-                    className="absolute top-0 left-0 w-full h-full rounded-lg"
-                    src="https://drive.google.com/file/d/1sFUzxAdM_Sso5Z1SuBgZPQklB8pB6kRs/view?usp=sharing" 
-                    title="Research demonstration"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                <iframe 
+                  src="https://www.youtube.com/embed/O-ryQd3Xw80" 
+                  width="100%" 
+                  height="400" 
+                  className="rounded-lg shadow-lg"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
                 ></iframe>
                 </div>
+                <p className="list-disc pl-8 space-y-1">
+                In this demo, I show how participants can interact with the environment by manipulating obejcts in the environment to achieve the goal being assigned to them (on the right).
+                </p>
+                <p className="list-disc pl-8">
+                We collect data of how they position the objects, the ball launching parameters, and the different attempts they make to achieve the goal.
+                </p>
             </div>
+            </section>
+            <section className="mb-8">
+            <h2 className="text-xl font-bold mb-4">Initial Results</h2>
+                <p className="list-disc pl-8 space-y-1">
+                An updated interface and initial results will be updated late December, early January.
+                </p>
+                <p className="list-disc pl-8 space-y-1">
+                Work in progress for cog sci conference. 
+                </p>
             </section>
             {/* <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">Data Collection</h2>

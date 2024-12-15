@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define custom properties for light and dark themes */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,9 +15,37 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+/* Apply Tailwind utilities and Dank Mono globally */
+@layer base {
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Dank Mono", monospace;
+    font-size: 1rem; /* Removed space between '1' and 'rem' */
+    line-height: 1.8; /* Enhance readability */
+    letter-spacing: -0.015em;
+    word-spacing: 0.05em;
+  }
+}
+
+/* Import the Dank Mono font files */
+@font-face {
+  font-family: "Dank Mono";
+  src: url("/fonts/Dank Mono Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dank Mono";
+  src: url("/fonts/Dank Mono Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Define the Roman numeral list style */
+@layer components {
+  .list-roman {
+    list-style-type: upper-roman;
+  }
 }

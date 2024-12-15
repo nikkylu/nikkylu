@@ -45,16 +45,16 @@ export default function Travel() {
         </Link>
 
         <article className="prose prose-lg max-w-none text-primary">
-          <h1 className="text-4xl font-bold mb-6">Travel</h1>
+          <h1 className="text-4xl font-bold mb-6">Travel Log</h1>
 
           <section className="mb-8">
-            <p>Trying to put my experience into words. Will update when I have more time.</p>
+            <p className="mb-1">Trying to put my experience into words. Will update when I have more time.</p>
             <p className='font-bold'>Aug 2024:</p>
             <p className='pl-8'>
               I spent the month backpacking the Nordic countries. I drove 1540km around Iceland and hiked
               Skogafoss.
             </p>
-            <p className='font-bold'>July 2024:</p>
+            <p className='font-bold'>Jul 2024:</p>
             <p className='pl-8'>
               Went to see art and had some good food in Hongkong.
             </p>
@@ -62,7 +62,7 @@ export default function Travel() {
             <p className='pl-8'>
               I saw the Niagra Falls by bike from NYC in 7 days along the empire state trail.
             </p>
-            <p className='font-bold'>March 2024:</p>
+            <p className='font-bold'>Mar 2024:</p>
             <p className='pl-8'>
               Hiked my first live volcano Acatenango, Guatemala. Spent organic days around Lake Atitlan. 
             </p>
@@ -74,13 +74,13 @@ export default function Travel() {
             <p className='pl-8'>
               Went to Dublin following steps of James Joyce. Went to see Newton's apple tree in Cambridge. Saw performances at Edinburgh Fringe.
             </p>
-            <p className='font-bold'>July 2023:</p>
+            <p className='font-bold'>Jul 2023:</p>
             <p className='pl-8'>
-              Chengdu, Chongqing, China. 山城。
+              Chengdu, Chongqing, China. 山城重庆
             </p>
             <p className='font-bold'>May 2023:</p>
             <p className='pl-8'>
-              Visiting UAL and CSM in London. Art museum visits.
+              Visiting UAL CSM in London. Art museum visits.
             </p>
             <p className='font-bold'>May 2023:</p>
             <p className='pl-8'>
@@ -97,6 +97,9 @@ export default function Travel() {
             <p className='font-bold'>May 2022:</p>
             <p className='pl-8'>
               Went to Cannes film festival. Lived in Paris for 2 months.
+            </p>
+            <p className='mt-1 font-bold'>
+              ...
             </p>
 
 
