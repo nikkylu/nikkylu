@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Github, Twitter, Mail, Linkedin, ExternalLink } from 'lucide-react'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const news = [
   {
@@ -258,6 +259,7 @@ export default function Home() {
         </div>
       </div>
       <Analytics/>
+      <SpeedInsights />
     </div>
   )
 }
