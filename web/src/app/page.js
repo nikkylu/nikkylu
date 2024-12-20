@@ -30,7 +30,8 @@ const research = {
       title: "Optimizing Environments Through Goal Interpretation",
       description: "Studying how varying levels of goal abstraction impact human understanding and creativity through behavioral experiments and computational models.",
       lab: "PI: Prof Brenden Lake, Mentor: Guy Davidson",
-      link: "/research/goal-interpretation"
+      link: "/research/goal-interpretation",
+      image: "/objects.png"
     },
     {
       id: "vector-grounding",
@@ -198,6 +199,18 @@ export default function Home() {
                         </p>
                         <p className="text-sm italic">{pub.advisors || pub.lab}</p>
                         <p className="text-sm text-dan">{pub.description}</p>
+                        {pub.image && (
+                          <div className="mt-4 relative aspect-1-1 w-1/4 overflow-hidden rounded-lg">
+                            <Image
+                                  src={pub.image}
+                                  alt={pub.title}
+                                  layout="responsive" /* Ensures responsive scaling */
+                                  width={300} /* Control width */
+                                  height={225} /* Control height, maintaining 4/3 ratio */
+                                  className="object-cover hover:scale-105 transition-transform duration-300"
+                                />
+                          </div>
+                        )}
                         
                       </div>
                     </Link>
