@@ -1,18 +1,38 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ArrowLeft } from 'lucide-react';
 
-const getPhotos = () => {
-  const photosDirectory = path.join(process.cwd(), 'public/photos/memory');
-  return fs.readdirSync(photosDirectory)
-    .filter(file => !file.startsWith('.') && !file.endsWith('.DS_Store'))
-    .map(file => `/photos/water/${file}`);
+const getVideos = () => {
+  const videoDirectory = path.join(process.cwd(), 'public/photos/water/video');
+  
+  return fs.existsSync(videoDirectory) 
+    ? fs.readdirSync(videoDirectory)
+      .filter(file => file.endsWith('.mp4'))
+      .map(file => ({
+        path: `/photos/water/video/${file}`,
+        type: 'video'
+      }))
+    : [];
 };
 
-export default function Photos() {
-  const photos = getPhotos();
+const VideoItem = ({ item }) => {
+  return (
+    <video
+      className="w-full h-full object-cover"
+      autoPlay
+      playsInline
+      loop
+      muted
+      preload="auto"
+    >
+      <source src={item.path} type="video/mp4" />
+    </video>
+  );
+};
+
+export default function Videos() {
+  const videos = getVideos();
 
   return (
     <div className="min-h-screen bg-beige">
@@ -23,22 +43,28 @@ export default function Photos() {
         </Link>
 
         <h1 className="text-3xl font-bold mb-8 text-primary">Water (2024)</h1>
-        {/* <div className='mb-4'>
-        <p className=" text-primary">
-            The proximity to a vast water body has been a defining anchor in my life since childhood.</p>
-         <p className=" text-primary">  I almost never photo humans, but I would like to be with water together this time.</p>
-        </div> */}
+        <div className='mb-4'>
+          <p className="text-primary">Different water looks different in different regions of the world. 
+          Thames, Seine, and Hudson River also looks different from East River in New York. 
+          For me, just by looking at each photos of these water bodies,
+          without any external references, I could tell where they are from, 
+          the time and space where I filmed that water body, 
+          my emotions at that time, my relations with the world and people around me.</p> 
+
+          <p className="text-primary">
+            The idea of the sea, for example, as Leibniz showed, is a system of liaisons 
+            or differential relations between particulars and singularities corresponding 
+            to degrees of variation among these relations — the totality of the system being 
+            incarnated in the real movement of the waves. To learn to swim is to conjugate 
+            the distinctive points of our bodies with the singular points of the objective idea, 
+            in order to form a problematic field. (165)
+          </p>
+        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {photos.map((photo, index) => (
-            <div key={index} className="relative w-full overflow-hidden">
-              <Image
-                src={photo}
-                alt={`Memory Photo ${index + 1}`}
-                layout="responsive"
-                width={3}
-                height={4}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
+          {videos.map((item, index) => (
+            <div key={index} className="relative w-full overflow-hidden aspect-[3/4]">
+              <VideoItem item={item} />
             </div>
           ))}
         </div>

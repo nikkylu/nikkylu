@@ -17,8 +17,8 @@ const photoProjects = [
   },
   {
     title: "Water (2024)",
-    description: "The proximity to a vast water body has been a defining anchor in my life since childhood. I almost never photo humans, but I would like to be with water together this time.",
-    image: "/photos/water/a.jpeg",
+    // description: " The idea of the sea, for example, as Leibniz showed, is a system of liaisons or differential relations between particulars and singularities corresponding to degrees of variation among these relations — the totality of the system being incarnated in the real movement of the waves. To learn to swim is to conjugate the distinctive points of our bodies with the singular points of the objective idea, in order to form a problematic field. (165)",
+    image: "/photos/water/water.png",
     link: "/photos/water"
   },
   {
