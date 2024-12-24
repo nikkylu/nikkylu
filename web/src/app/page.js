@@ -31,7 +31,7 @@ const research = {
       description: "Studying how varying levels of goal abstraction impact human understanding and creativity through behavioral experiments and computational models.",
       lab: "PI: Prof Brenden Lake, Mentor: Guy Davidson",
       link: "/research/goal-interpretation",
-      image: "/objects.png"
+      // image: "/objects.png"
     },
     {
       id: "vector-grounding",
